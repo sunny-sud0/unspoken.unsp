@@ -1,0 +1,108 @@
+@font-face {
+  font-family: navfont;
+  src: url(fonts/Poppins-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: head;
+  src: url(fonts/Poppins-BoldItalic.ttf);
+}
+
+body {
+  font-family: navfont;
+  font-style: italic;
+  min-height: 100vh;
+}
+
+.nav {
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0);
+}
+
+.nav ul {
+  padding: 0%;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.nav ul li {
+  margin: 0 3rem;
+  padding: 1rem;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #000000;
+  font-size: 16px;
+}
+
+.nav ul li a:hover {
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.content {
+  padding: 320px 0;
+  text-align: right;
+  padding-bottom: 100px;
+  padding-top: 15%;
+}
+
+h2 {
+  font-family: head;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 100px;
+  margin: 0px;
+}
+
+.content p {
+  font-family: navbar;
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 16px;
+  margin: 0px;
+}
+.show{
+  margin: 0px;
+}
+
+.sub-button {
+  padding: 0px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button.but {
+  font-family: navfont;
+  border: none;
+  background-color: #000000;
+  border-radius: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 40px;
+  margin: 15px 40px;
+  text-transform: lowercase;
+  font-style: italic;
+  line-height: 1.5em;
+  font-weight: 500;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+}
+/* FOOTER STYLES*/
+
