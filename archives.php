@@ -20,7 +20,7 @@ $con = mysqli_connect("localhost", "root", "", "db_contact");
 <body>
     <nav class="nav">
         <ul>
-            <li><a href="main.html">home</a></li>
+            <li><a href="index.html">home</a></li>
             <li><a href="archives.php">archives</a></li>
             <li><a href="about.html">about</a></li>
             <li><a class="but" onclick="location.href='submit.php'"><span>Submit</span></a></li>
